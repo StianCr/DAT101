@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <title>Snake Game</title>
+<link rel="stylesheet" href="snake.css" />
+  <script src="snake.js" defer></script>
+  </head>
+  <body
+ <div id="gameContainer">
+    <h1>Snake Game</h1>
+    <div id="gameArea">
+        <div id="gameOver" class="hidden">
+            <h2>Game Over</h2>
+            <p>Your score: <span id="finalScore">0</span></p>
+            <button id="playAgainBtn">Play Again</button>
+        </div>
+        <div id="gameInstructions">
+            <p>Use the arrow keys to control the snake.</p>
+            <p>Eat the food to grow and score points.</p>
+            <p>Don't run into the walls or yourself!</p>
+        </div>
+   <canvas id="gameBoard" width="500" height ></canvas>
+<div id="score">0</div>
+<button id="resetBtn">Reset</button>
+    </div>
+  </div>
+  <script src="snake.js"></script>
